@@ -41,9 +41,7 @@ public class AccountDAOImpl implements AccountDAO {
                 connection.close();
             }
         }
- 
         return accounts;
- 
     }
  
     public List<Accounts> getAllAccountsByCustomer(int customer_id) throws SQLException {
